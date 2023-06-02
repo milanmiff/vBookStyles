@@ -1,4 +1,6 @@
+#if os(macOS)
 import Cocoa
+#endif
 import SwiftUI
 
 @available(iOS 13.0, macOS 10.15, *)
