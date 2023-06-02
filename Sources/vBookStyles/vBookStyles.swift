@@ -16,12 +16,6 @@ extension Image {
 #if os(iOS)
         self.init(uiImage: UIImage(named: name.rawValue, in: .module, with: nil)!)
 #else
-//        guard let path = Bundle.module.path(forResource: name.rawValue, ofType: nil),
-//              let image = NSImage(contentsOfFile: path) else {
-//            self.init(name.rawValue)
-//            return
-//        }
-//        self.init(nsImage: image)
         self.init(name.rawValue, bundle: .module)
 #endif
     }
