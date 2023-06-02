@@ -10,6 +10,7 @@ extension Color {
     public static let powerOrange = Color("PowerOrange", bundle: .module)
     public static let teal = Color("Teal", bundle: .module)
     public static let yellow = Color("Yellow", bundle: .module)
+    public static let softBlack = Color("SoftBlack", bundle: .module)
 }
 
 @available(iOS 13.0, macOS 11.0, *)
