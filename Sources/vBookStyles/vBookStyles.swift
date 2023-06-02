@@ -2,11 +2,11 @@ import SwiftUI
 
 @available(iOS 13.0, macOS 10.15, *)
 extension Color {
-    public static let coolGray = Color("CoolGray")
-    public static let lightGray = Color("LightGray")
-    public static let powerOrange = Color("PowerOrange")
-    public static let teal = Color("Teal")
-    public static let yellow = Color("Yellow")
+    public static let coolGray = Color("CoolGray", bundle: .module)
+    public static let lightGray = Color("LightGray", bundle: .module)
+    public static let powerOrange = Color("PowerOrange", bundle: .module)
+    public static let teal = Color("Teal", bundle: .module)
+    public static let yellow = Color("Yellow", bundle: .module)
 }
 
 @available(iOS 13.0, macOS 10.15, *)
