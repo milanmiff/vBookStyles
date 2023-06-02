@@ -9,18 +9,27 @@ extension Color {
     public static let yellow = Color("Yellow", bundle: .module)
 }
 
-@available(iOS 13.0, macOS 10.15, *)
+@available(iOS 13.0, macOS 11.0, *)
 extension Image {
     public init(name: Asset) {
+#if os(iOS)
         self.init(uiImage: UIImage(named: name.rawValue, in: .module, with: nil)!)
+#else
+        guard let path = Bundle.module.path(forResource: name.rawValue, ofType: nil),
+              let image = NSImage(contentsOfFile: path) else {
+            self.init(name.rawValue)
+            return
+        }
+        self.init(nsImage: image)
+#endif
     }
-
+    
     public enum Asset: String {
         case ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Assets,
-        Badge, Book, Calendar, ChangePassword, Chart, Check,
-        CheckRound, Clear, Coaching, Cross, CustomFields,
-        File, Filter, Fire, Folder, Insights, LearningCenter,
-        Monitor, Pen, People, QuestionMark, Search, Settings,
-        Sort, Templates, ThreeDots, TurnOff, User, UserRound
+             Badge, Book, Calendar, ChangePassword, Chart, Check,
+             CheckRound, Clear, Coaching, Cross, CustomFields,
+             File, Filter, Fire, Folder, Insights, LearningCenter,
+             Monitor, Pen, People, QuestionMark, Search, Settings,
+             Sort, Templates, ThreeDots, TurnOff, User, UserRound
     }
 }
