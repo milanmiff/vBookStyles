@@ -8,7 +8,7 @@ extension Color {
     public static let coolGray = Color("CoolGray", bundle: .module)
     public static let lightGray = Color("LightGray", bundle: .module)
     public static let powerOrange = Color("PowerOrange", bundle: .module)
-    public static let teal = Color("Teal", bundle: .module)
+    public static let powerTeal = Color("Teal", bundle: .module)
     public static let yellow = Color("Yellow", bundle: .module)
     public static let softBlack = Color("SoftBlack", bundle: .module)
 }
