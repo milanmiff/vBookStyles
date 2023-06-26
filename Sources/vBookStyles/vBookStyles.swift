@@ -25,10 +25,12 @@ extension Image {
     
     public enum Asset: String {
         case ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Assets,
-             Badge, Book, Calendar, ChangePassword, Chart, Check,
-             CheckRound, Clear, Coaching, Cross, CustomFields,
+             Badge, Book, Calendar, Camera, Cancel, ChangePassword,
+             Chart, ChartBubbles, Check, CheckRound, Clear, Coaching,
+             Contact, Cross, CustomFields,Download, FavoriteStar,
              File, Filter, Fire, Folder, Insights, LearningCenter,
-             Monitor, Pen, People, QuestionMark, Search, Settings,
-             Sort, Templates, ThreeDots, TurnOff, User, UserRound
+             Link, Mail, MapLayers, Menu, Monitor, Pen, People,
+             QuestionMark, RemoveForm, Ringer, Save, Search, Settings,
+             Sort, Templates, ThreeDots, TurnOff, Upload, User, UserRound, World
     }
 }
