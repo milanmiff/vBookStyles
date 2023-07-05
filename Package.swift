@@ -23,7 +23,7 @@ let package = Package(
             dependencies: [],
             path: "Sources",
             resources: [
-                .process("Media.xcassets")
+                .process("vBookStyles/Media.xcassets")
             ]
         ),
         .testTarget(

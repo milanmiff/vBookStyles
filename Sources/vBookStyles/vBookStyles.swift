@@ -26,7 +26,7 @@ extension Image {
     public enum Asset: String {
         case ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Assets,
              Badge, Book, Calendar, Camera, Cancel, ChangePassword,
-             Chart, ChartBubbles, Check, CheckRound, Clear, Coaching,
+             Chart, ChatBubbles, Check, CheckRound, Clear, Coaching,
              Contact, Cross, CustomFields,Download, FavoriteStar,
              File, Filter, Fire, Folder, Insights, LearningCenter,
              Link, Mail, MapLayers, Menu, Monitor, Pen, People,
