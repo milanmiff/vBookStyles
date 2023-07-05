@@ -27,7 +27,7 @@ extension Image {
         case ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Assets,
              Badge, Book, Calendar, Camera, Cancel, ChangePassword,
              Chart, ChatBubbles, Check, CheckRound, Clear, Coaching,
-             Contact, Cross, CustomFields,Download, FavoriteStar,
+             Contact, Cross, CustomFields,Download, Exit, FavoriteStar,
              File, Filter, Fire, Folder, Insights, LearningCenter,
              Link, Mail, MapLayers, Menu, Monitor, Pen, People,
              QuestionMark, RemoveForm, Ringer, Save, Search, Settings,
