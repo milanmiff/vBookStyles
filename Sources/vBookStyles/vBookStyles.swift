@@ -28,7 +28,7 @@ extension Image {
              Badge, Book, Calendar, Camera, Cancel, ChangePassword,
              Chart, ChatBubbles, Check, CheckRound, Clear, Coaching,
              Contact, Cross, CustomFields,Download, Exit, FavoriteStar,
-             File, Filter, Fire, Folder, Insights, LearningCenter,
+             File, Filter, Fire, Folder, Home, Insights, LearningCenter,
              Link, Mail, MapLayers, Menu, Monitor, Pen, People,
              QuestionMark, RemoveForm, Ringer, Save, Search, Settings,
              Sort, Templates, ThreeDots, TurnOff, Upload, User, UserRound, World
