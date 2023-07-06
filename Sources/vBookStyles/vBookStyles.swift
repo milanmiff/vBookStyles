@@ -32,5 +32,6 @@ extension Image {
              Link, Mail, MapLayers, Menu, Monitor, Pen, People,
              QuestionMark, RemoveForm, Ringer, Save, Search, Settings,
              Sort, Templates, ThreeDots, TurnOff, Upload, User, UserRound, World
+        case LogoCorners128, LogoCorners1024
     }
 }
