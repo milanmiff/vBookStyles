@@ -26,11 +26,11 @@ extension Image {
     public enum Asset: String {
         case ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Assets,
              Badge, Book, Calendar, Camera, Cancel, ChangePassword,
-             Chart, ChatBubbles, Check, CheckRound, Clear, Coaching,
+             Chart, Chat, ChatBubbles, Check, CheckRound, Clear, Coaching,
              Contact, Cross, CustomFields,Download, Exit, FavoriteStar,
              File, Filter, Fire, Folder, Home, Insights, LearningCenter,
              Link, Mail, MapLayers, Menu, Monitor, Pen, People,
-             QuestionMark, RemoveForm, Ringer, Save, Search, Settings,
+             QuestionMark, RemoveForm, Ringer, Rotation, Save, Search, Send, Settings,
              Sort, Templates, ThreeDots, TurnOff, Upload, User, UserRound, World
         case LogoCorners128, LogoCorners1024
     }
