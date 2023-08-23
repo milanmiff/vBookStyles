@@ -30,7 +30,7 @@ extension Image {
              Contact, Cross, CustomFields,
              Download, DuplexLandscapeOneSided,
              Exit,
-             FavoriteStar, File, Filter, Fire, Folder,
+             FavoriteStar, File, Filter, Fire, Folder, Feedback,
              Group,
              Home,
              Insights,
