@@ -36,7 +36,7 @@ extension Image {
              Insights,
              LearningCenter, Link, L1, L2, L3, L4, L5, L6, L7, L8, L9, L10, L11, L12, L13, L14, L15, L16,
              Mail, MapLayers, Menu, Monitor,
-             Pen, People,
+             Pen, People, PP1, PP2, PP3, PP4, PP5, PP6, PP7, PP8, PP9,
              QuestionMark,
              RemoveForm, Ringer, Rotation,
              Save, Search, Send, Settings, Sort,
